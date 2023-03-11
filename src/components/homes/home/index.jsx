@@ -23,6 +23,7 @@ const index = () => {
                 <TopCategories/>
                 <AboutArea/>
                 <CtaArea/>
+                <TeamArea/>
                 <BrandArea/>
                 <AdBanner/>
                 <Footer/>

@@ -7,10 +7,10 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Jane Seymour',
-        title:'UI Designer',
+        name:'Emilie TIMBONI',
+        title:'CEO - Chef de Projet',
         delay:'50',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        sm_text:"CEO - Chef de Projet"
     },
     {
         id:2,
@@ -20,10 +20,10 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Edward Norton',
+        name:'Jordane FRANÇOIS',
         title:'Web Developer',
         delay:'100',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        sm_text:"Web Developer"
     },
     {
         id:3,
@@ -33,10 +33,10 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Penelope Cruz',
-        title:'Digital Marketer',
+        name:'Manana',
+        title:'Content Manager',
         delay:'150',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        sm_text:"Content Manager"
     },
     {
         id:4,
@@ -46,10 +46,10 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'John Travolta',
-        title:'Wordpress Expert',
+        name:'Loïc VAïARELLO',
+        title:'Graphiste - Illustrateur',
         delay:'200',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        sm_text:"Graphiste - Illustrateur"
     },
     {
         id:5,
