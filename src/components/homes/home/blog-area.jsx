@@ -11,8 +11,8 @@ const BlogArea = () => {
         <div className="edu-blog-area blog-area-3 edu-section-gap">
             <div className="container">
                 <div className="section-title section-center" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
-                    <span className="pre-title">Latest Articles</span>
-                    <h2 className="title">Get News with EduBlink</h2>
+                    <span className="pre-title">Derniers Articles</span>
+                    <h2 className="title">Informez-vous des dernières actualités du Web</h2>
                     <span className="shape-line"><i className="icon-19"></i></span>
                 </div>
                 <div className="row g-5 row--45">
@@ -41,7 +41,7 @@ const BlogArea = () => {
                                             <a>{large_blog.title}</a>
                                         </Link>
                                     </h4>
-                                    <p>Lorem ipsum dolor sit amet consec tetur adipisicing sed eiusmod tempor incid idunt labore.</p>
+                                    <p>Lorem ipsum dolor sit amet consec tetur aditestetsetsetset iusmod tempor incid idunt labore.</p>
                                     <ul className="blog-meta">
                                         <li><i className="icon-25"></i>By <a href="#">{large_blog.author}</a></li>
                                         <li><i className="icon-28"></i>Com {large_blog.comment}</li>
