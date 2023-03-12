@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBBUsU6zVh1unjDVE2zGgZSgtBzFdHAgYg",
-    authDomain: "edu-blink.firebaseapp.com",
-    projectId: "edu-blink",
-    storageBucket: "edu-blink.appspot.com",
-    messagingSenderId: "568463423109",
-    appId: "1:568463423109:web:66e8a7a12aaa3af3619bec"
-};
-
+    apiKey: "AIzaSyDI1uWt0EGKCeSsEdMqk8ujpZ0H-Xbr2D0",
+    authDomain: "mighty-fox.firebaseapp.com",
+    projectId: "mighty-fox",
+    storageBucket: "mighty-fox.appspot.com",
+    messagingSenderId: "52816230106",
+    appId: "1:52816230106:web:1db5aea12d50d5ebc3d7e3",
+    measurementId: "G-CZQ3YP9JM0"
+  };
 export default firebaseConfig;
