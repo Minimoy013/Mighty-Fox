@@ -13,13 +13,13 @@ const CourseBreadcrumb = ({ course, subtitle }) => {
                     <ul className="edu-breadcrumb">
                         <li className="breadcrumb-item">
                             <Link href="/">
-                                <a>Home</a>
+                                <a>Accueil</a>
                             </Link>
                         </li>
                         <li className="separator"><i className="icon-angle-right"></i></li>
                         <li className="breadcrumb-item">
                             <Link href="/course-style-1">
-                                <a>Courses</a>
+                                <a>Cours</a>
                             </Link>
                         </li>
                         <li className="separator"><i className="icon-angle-right"></i></li>
@@ -29,7 +29,7 @@ const CourseBreadcrumb = ({ course, subtitle }) => {
                         <h1 className="title">{title}</h1>
                     </div>
                     <ul className="course-meta">
-                        <li><i className="icon-58"></i>by {instructor}</li>
+                        <li><i className="icon-58"></i>de {instructor}</li>
                         <li><i className="icon-59"></i>{language}</li>
                         <li className="course-rating">
                         <div className="rating">
@@ -39,7 +39,7 @@ const CourseBreadcrumb = ({ course, subtitle }) => {
                             <i className="icon-23"></i>
                             <i className="icon-23"></i>
                         </div>
-                        <span className="rating-count">({rating_count} Rating)</span>
+                        <span className="rating-count">({rating_count} Note)</span>
                         </li>
                     </ul>
                 </div>
