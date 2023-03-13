@@ -12,26 +12,21 @@ const footer_contents = {
         {
             col: '3',
             class: 'explore-widget',
-            widget_title: 'Online Platform',
+            widget_title: 'Formation en Ligne',
             footer_links: [
-                { link: 'about-1', title: 'About' },
-                { link: 'course-style-1', title: 'Courses' },
-                { link: 'team-1', title: 'Instructor' },
-                { link: 'event-grid', title: 'Events' },
-                { link: 'team-details', title: 'Instructor Profile' },
-                { link: 'purchase-guide', title: 'Purchase Guide' }
+                { link: '/#', title: 'Cours' },
+                { link: '/#', title: 'Formateurs' }
             ]
         },
         {
             col: '2',
             class: 'quick-link-widget',
-            widget_title: 'Links',
+            widget_title: 'Liens',
             footer_links: [
                 { link: 'contact-us', title: 'Contactez-Nous' },
-                { link: 'gallery-grid', title: 'Gallery' },
                 { link: 'blog-standard', title: 'Blog' },
                 { link: 'faq', title: "FAQ" },
-                { link: 'sign-in', title: 'Se connecter / Créer un compte' }
+                { link: '/#', title: "Mentions Légales" }
             ]
         }
     ]

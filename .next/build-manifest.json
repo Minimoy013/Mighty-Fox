@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/blog-details/[id].js"
-    ],
-    "/course-style-1": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/course-style-1.js"
     ]
   },
   "ampFirstPages": []
