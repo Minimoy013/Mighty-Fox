@@ -60,28 +60,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                             <img className="logo-dark" src='/assets/images/logo/logo-mighty-fox-white.png' alt="logo Mighty Fox" />
                                         </a>
                                     </Link>
-                                </div>
-
-                                { ! disable_category &&
-                                    <div className="header-category">
-                                        <nav className="mainmenu-nav">
-                                            <ul className="mainmenu">
-                                                <li className="has-droupdown">
-                                                    <a href="#"><i className="icon-1"></i>Categories</a>
-                                                    <ul className="submenu">
-                                                        {
-                                                            categories.map((category, i) => (
-                                                                <li key={i}>
-                                                                    <Link href={`${category.link}`}><a>{category.title}</a></Link>
-                                                                </li>
-                                                            ) )
-                                                        }
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                }
+                                </div> 
                             </div>
                             <div className="header-mainnav">
                                 <nav className="mainmenu-nav">
@@ -92,39 +71,9 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                             </div>
                             <div className="header-right">
                                 <ul className="header-action">
-                                    <li className="search-bar">
-                                        <div className="input-group">
-                                            <input type="text" className="form-control" placeholder="Rechercher" />
-                                            <button className="search-btn" type="button">
-                                                <i className="icon-2"></i>
-                                            </button>
-                                        </div>
-                                    </li>
-                                    <li className="icon search-icon">
-                                        <a style={{cursor:'pointer'}} onClick={() => setIsSearchOpen(true)} className="search-trigger">
-                                            <i className="icon-2"></i>
-                                        </a>
-                                    </li>
-                                    <li className="icon">
-                                        <Link href="/wishlist">
-                                            <a className="wishlist">
-                                                <i className="icon-22"></i>
-                                                <span className="count">{wishlists?.length}</span>
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li className="icon cart-icon">
-                                        <Link href="/cart">
-                                            <a className="cart-icon">
-                                                <i className="icon-3"></i>
-                                                <span className="count">{quantity}</span>
-                                            </a>
-                                        </Link>
-                                        <Cart />
-                                    </li>
                                     <li className="header-btn">
-                                        <Link href="/landing-demo">
-                                            <a className="edu-btn btn-medium">Nos réalisations
+                                        <Link href="/contact-us">
+                                            <a className="edu-btn btn-medium">Contactez-Nous
                                             <i className="icon-4"></i></a>
                                         </Link>
                                     </li>
