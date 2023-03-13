@@ -26,7 +26,8 @@ const footer_contents = {
                 { link: 'contact-us', title: 'Contactez-Nous' },
                 { link: 'blog-standard', title: 'Blog' },
                 { link: 'faq', title: "FAQ" },
-                { link: '/mentions-legales', title: "Mentions Légales" }
+                { link: '/mentions-legales', title: "Mentions Légales" },
+                { link: '/cgv', title: "CGV & CGU" }
             ]
         }
     ]
