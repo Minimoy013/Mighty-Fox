@@ -15,11 +15,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,10 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/cgv": [
+    "/blog-details/[id]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/cgv.js"
+      "static/chunks/pages/blog-details/[id].js"
+    ],
+    "/contact-us": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contact-us.js"
     ]
   },
   "ampFirstPages": []

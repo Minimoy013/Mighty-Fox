@@ -12,12 +12,11 @@ const ContactUsForm = () => {
 
     const sendEmail = ( e ) => {
         e.preventDefault();
-        emailjs
-        .sendForm(
-            'service_bxh6md3', 
-            'template_1g7v07n', 
+        emailjs.sendForm(
+            'service_4eat2fn', 
+            'template_k7ou1ca', 
             e.target, 
-            'user_8Lx0gfI1ktOoeEN8DTV10'
+            'D-LvegPw7rJXJ1YF7'
         )
         .then( ( result ) => {
             console.log( result.text );
@@ -44,7 +43,7 @@ const ContactUsForm = () => {
                     <input type="email" name="email" placeholder="Votre e-mail*" required />
                 </div>
                 <div className="form-group col-12">
-                    <input type="text" name="website" placeholder="Votre site internet*" required />
+                    <input type="text" name="website" placeholder="Votre site internet" />
                 </div>
                 <div className="form-group col-12">
                     <input type="tel" name="phone" placeholder="Votre téléphone*" required/>
