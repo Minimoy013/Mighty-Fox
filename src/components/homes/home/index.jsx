@@ -25,7 +25,6 @@ const index = () => {
                 <CtaArea/>
                 <TeamArea/>
                 <BrandArea/>
-                <BlogArea/>
                 <AdBanner/>
                 <Footer/>
             </div>
