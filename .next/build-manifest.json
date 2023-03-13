@@ -15,11 +15,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -35,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/blog-details/[id].js"
     ],
-    "/team-details/[id]": [
+    "/mentions-legales": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/team-details/[id].js"
+      "static/chunks/pages/mentions-legales.js"
     ]
   },
   "ampFirstPages": []

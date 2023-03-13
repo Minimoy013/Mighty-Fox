@@ -9,66 +9,35 @@ const PurchaseArea = () => {
                     <div className="col-lg-8">
                         <div className="privacy-policy purchase-guide">
                             <div className="text-block">
-                                <h3 className="title">Purchase Currency</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis aliquip commodo consequat aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat. </p>
-                            </div>
-
-                            <div className="text-block">
-                                <h4 className="title">Account Registering</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h3 className="title">Société</h3>
+                                <p>Mighty Fox est une marque appartenant à la société ETHS SASU créée en 2016.</p>
                                 <div className="row">
                                     <div className="col-lg-5">
                                         <ul>
-                                            <li>Name (required)</li>
-                                            <li>Age (required)</li>
-                                            <li>Date of birth (required)</li>
-                                            <li>Passport/ ID no. (required)</li>
-                                            <li>Current career (required)</li>
+                                            <li>Siren : 820524445</li>
+                                            <li>RSC : Aix-en Provence  B 820 524 445 </li>                                     
                                         </ul>
                                     </div>
-
                                     <div className="col-lg-6">
                                         <ul>
-                                            <li>Mobile phone numbers (required)</li>
-                                            <li>Email address (required)</li>
-                                            <li>Hobbies & interests (optional)</li>
-                                            <li>Social profiles (optional)</li>
+                                            <li>Numéro de TVA : FR79820524445</li>
+                                            <li>Capital Social : 1 500€</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-
                             <div className="text-block">
-                                <h4 className="title">How to Purchase a Course?</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis aliquip commodo consequat aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
-                            </div>
-
-                            <div className="text-block">
-                                <h4 className="title">Accepted Credit Cards</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h4 className="title">Site Internet</h4>
                                 <ul>
-                                    <li>Visa</li>
-                                    <li>Mastercards</li>
-                                    <li>American Express</li>
-                                    <li>Discover</li>
-                                </ul>
-                            </div>
-
-                            <div className="text-block">
-                                <h4 className="title">Why to Buy Our Course?</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <ul>
-                                    <li>Updated content on a regular basis</li>
-                                    <li>Secure & hassle-free payment</li>
-                                    <li>1-click checkout</li>
-                                    <li>Easy access & smart user dashboard</li>
+                                    <li>Propriétaire : ETHS SASU - Entreprise dirigée par Emilie TIMBONI - 26 rue Boris Vian, 13730 SAINT VICTORET</li>
+                                    <li>Herbergement : Vercel Inc, 440 N Barranca Ave #4133 Covina, CA 91723, privacy@vercel.com</li>
+                                    <li>Nom de domaine : OVH</li>
+                                    <li>Directrice de la publication : Emilie TIMBONI - emilie.timboni@mighty-fox.com</li>
+                                    <li>Webmaster : Emilie TIMBONI - emilie.timboni@mighty-fox.com</li>
+                                    <li>Délégué à la protection des données : Emilie TIMBONI - emilie.timboni@mighty-fox.com</li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-
-                    <div className="col-lg-4">
-                        <SidebarOne />
                     </div>
                 </div>
             </div>

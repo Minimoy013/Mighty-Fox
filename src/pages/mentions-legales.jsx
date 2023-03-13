@@ -5,7 +5,7 @@ import PurchaseGuideMain from '../components/purchase-guide';
 export default function PurchaseGuide() {
     return (
         <Wrapper>
-            <SEO pageTitle={'Purchase Guide'} />
+            <SEO pageTitle={'Mentions Légales'} />
             <PurchaseGuideMain />
         </Wrapper>
     )

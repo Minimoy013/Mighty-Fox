@@ -12,7 +12,7 @@ const BreadcrumbSix = ({ title, page }) => {
                     <ul className="edu-breadcrumb">
                         <li className="breadcrumb-item">
                             <Link href="/">
-                                <a>Home</a>
+                                <a>Accueil</a>
                             </Link>
                         </li>
                         <li className="separator"><i className="icon-angle-right"></i></li>
