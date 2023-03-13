@@ -19,10 +19,6 @@ const ContactUsArea = () => {
                                     <p>26 rue Boris Vian, 13730 SAINT VICTORET</p>
                                 </li>
                                 <li>
-                                    <h5 className="title">Email</h5>
-                                    <p><a href="mailto:edublink@example.com">info@mighty-fox.com</a></p>
-                                </li>
-                                <li>
                                     <h5 className="title">Téléphone</h5>
                                     <p><a href="tel:+0914135548598">(+33) 609 346 238</a></p>
                                 </li>
