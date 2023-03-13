@@ -9,7 +9,7 @@ const index = ({team}) => {
         <div className='sticky-header'>
             <div id="main-wrapper" className="main-wrapper">
                 <Header no_top_bar={true} />
-                <BreadcrumbThree title="Instructor Details" subtitle="Instructor Details" />
+                <BreadcrumbThree title="Notre Team" subtitle="Notre Team" />
                 <TeamArea team={team} />
                 <CourseArea name={team.name}/>
                 <Footer style_2={'footer-dark bg-image footer-style-2'} />

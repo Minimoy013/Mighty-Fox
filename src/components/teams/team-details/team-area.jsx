@@ -27,11 +27,11 @@ const TeamArea = ({ team }) => {
                     <div className="col-lg-8">
                         <div className="team-details-content">
                             <div className="main-info">
-                                <span className="subtitle">Instructor</span>
+                                <span className="subtitle">Team Member</span>
                                 <h3 className="title">{team?.name}</h3>
                                 <span className="designation">{team?.title}</span>
                                 <ul className="team-meta">
-                                    <li><i className="icon-25"></i>20 Students</li>
+                                    <li><i className="icon-25"></i>18 Etudiants</li>
                                     <li>
                                         <div className="rating">
                                             <i className="icon-23"></i>
@@ -40,23 +40,22 @@ const TeamArea = ({ team }) => {
                                             <i className="icon-23"></i>
                                             <i className="icon-23"></i>
                                         </div>
-                                        <span className="rating-count">(720 Rating)</span>
+                                        <span className="rating-count">(6 Notes)</span>
                                     </li>
                                 </ul>
                             </div>
 
                             <div className="bio-describe">
-                                <h4 className="title">About Me</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur elit sed do eius mod tempor incidid labore dolore magna aliqua. enim ad minim eniam quis nostrud exercitation ullamco laboris nisi aliquip ex commodo consequat. duis aute irure dolor in repreed ut perspiciatis unde omnis iste natus error sit voluptat em acus antium.</p>
-                                <p>doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi arch itecto beatae vitae dicta sunt explicabo.</p>
+                                <h4 className="title">Ses Atouts</h4>
+                                <p>Développeur web spécialisé sur le framework Symfony, plus rapide que la vitesse de l'éclair et plus agile que le chat de Schrödinger. Jordane est un excellent communicateur et travaille en étroite collaboration avec ses clients pour comprendre leurs besoins et leurs attentes.</p>
+                                <p>Sa force est sa capacité à trouver des solutions créatives et innovantes pour chaque projet. Que vous ayez besoin d'une application web complexe ou d'un simple site vitrine, Jordane sera en mesure de créer une solution qui répondra parfaitement à vos besoins.</p>
                             </div>
 
                             <div className="contact-info">
-                                <h4 className="title">Contact Me</h4>
+                                <h4 className="title">Prenez contact</h4>
                                 <ul>
-                                    <li><span>Address:</span>North Helenavile, FV77 8WS</li>
-                                    <li><span>Email:</span><a href="mailto:edublink@example.com" target="_blank" rel="noreferrer">edublink@example.com</a></li>
-                                    <li><span>Phone:</span><a href="tel:+37(417)683-4409">+37 (417) 683-4409</a></li>
+                                    <li><span>Location:</span>Marseille</li>
+                                    <li><span>Email:</span><a href="mailto:jordane.francois@mighty-fox.com" target="_blank" rel="noreferrer">jordane.francois@mighty-fox.com</a></li>
                                 </ul>
                             </div>
                         </div>
