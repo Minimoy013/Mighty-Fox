@@ -3,9 +3,8 @@ const instructors_data = [
         id:1,
         img:'team-01.webp',
         social_links:[
-            {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-            {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-            {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
+            {link: 'https://github.com/Minimoy013', target: '_blank', icon: 'ri-github-line'},
+            {link: 'https://www.linkedin.com/in/emilie-timboni/', target: '_blank', icon: 'icon-linkedin2'}
         ],
         name:'Emilie TIMBONI',
         title:'CEO - Chef de Projet',
@@ -16,9 +15,7 @@ const instructors_data = [
         id:2,
         img:'team-02.webp',
         social_links:[
-            {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-            {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-            {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
+            {link: 'https://www.linkedin.com/in/jordane-fran%C3%A7ois-9318a1b2/', target: '_blank', icon: 'icon-linkedin2'}
         ],
         name:'Jordane FRANÇOIS',
         title:'Web Developer',
@@ -34,7 +31,7 @@ const instructors_data = [
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
         name:'Manana',
-        title:'Content Manager',
+        title:'Content Manager - Illustratrice',
         delay:'150',
         sm_text:"Content Manager"
     },
@@ -42,9 +39,10 @@ const instructors_data = [
         id:4,
         img:'team-04.webp',
         social_links:[
-            {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
-            {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
-            {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
+            {link: 'https://loicvaiarello.com/', target: '_blank', icon: 'ri-global-line'},
+            {link: 'https://www.artstation.com/lvaiarello', target: '_blank', icon: 'ri-brush-fill'},
+            {link: 'https://www.instagram.com/vivaillustration/', target: '_blank', icon: 'icon-instagram'},
+            {link: 'https://www.linkedin.com/in/lo%C3%AFc-va%C3%AFarello-28a998146/', target: '_blank', icon: 'icon-linkedin2'}
         ],
         name:'Loïc VAïARELLO',
         title:'Graphiste - Illustrateur',

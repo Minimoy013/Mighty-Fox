@@ -5,7 +5,7 @@ import TermsConditionMain from '../components/terms-condition';
 export default function TermsCondition() {
     return (
         <Wrapper>
-            <SEO pageTitle={'CGV'} />
+            <SEO pageTitle={'CGV & CGU'} />
             <TermsConditionMain/>
         </Wrapper>
     )

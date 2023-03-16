@@ -12,6 +12,8 @@ import Theme from '../components/common/theme';
 import { MouseMoveProvider } from '../contexts/mouse-move-context';
 import SEO from '../components/seo';
 
+
+
 function MyApp( { Component, pageProps } ) {
     const router = useRouter();
     useEffect( () => {
