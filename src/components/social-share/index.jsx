@@ -3,7 +3,7 @@ import React from 'react';
 const social_share = [
     { link: 'https://www.facebook.com/mightyfox', target: '_blank', icon: 'icon-facebook',},
     { link: 'https://www.youtube.com/@mighty_fox_com', target: '_blank', icon: 'icon-youtube', },
-    { link: 'https://www.linkedin.com/company/mighty-fox-enterprise', target: '_blank', icon: 'icon-linkedin2'},
+    { link: 'https://www.linkedin.com/company/mighty-fox-com', target: '_blank', icon: 'icon-linkedin2'},
 ];
 
 export const SocialShare = () => {
