@@ -7,7 +7,7 @@ const footer_contents = {
     desc: 'Agence web spécialiste en Web Marketing, de la création de site internet et en design graphique.',
     add: '26 rue Boris Vian, 13730 SAINT VICTORET',
     call: '+33 6 09 34 62 38',
-    email: 'info@mighty-fox.com',
+    email: 'contact@mighty-fox.com',
     widgets: [
         {
             col: '3',
@@ -66,7 +66,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                                     <ul className="information-list">
                                         <li><span>Add:</span>{add}</li>
                                         <li><span>Call:</span><a href="tel:+33609346238">{call}</a></li>
-                                        <li><span>Email:</span><a href="mailto:info@ighty-fox.com" rel="noreferrer" target="_blank">{email}</a></li>
+                                        <li><span>Email:</span><a href="mailto:contatct@ighty-fox.com" rel="noreferrer" target="_blank">{email}</a></li>
                                     </ul>
                                 </div>
                             </div>
