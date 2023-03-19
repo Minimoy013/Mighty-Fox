@@ -14,7 +14,7 @@ const CtaArea = () => {
                                 <div className="content text-md-end">
                                     <span className="subtitle">Ecrivez-nous :</span>
                                     <h3 className="title">
-                                        <a href="mailto:info@mighty-fox.com">info@mighty-fox.com</a>
+                                        <a href="mailto:contact@mighty-fox.com">contact@mighty-fox.com</a>
                                     </h3>
                                 </div>
                                 <div className="sparator">
@@ -23,7 +23,7 @@ const CtaArea = () => {
                                 <div className="content">
                                     <span className="subtitle">Téléphonez-Nous :</span>
                                     <h3 className="title">
-                                        <a href="tel:+33609346238">+33 609 34 62 38</a>
+                                        <a href="tel:+33609346238">+33 609 346 238</a>
                                     </h3>
                                 </div>
                             </div>
