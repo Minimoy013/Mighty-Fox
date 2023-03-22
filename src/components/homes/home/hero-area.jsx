@@ -10,7 +10,7 @@ const HeroArea = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="banner-content">
-                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">MI<span className="color-secondary">G</span>TY FOX <br />Agence Web</h1>
+                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">MI<span className="color-secondary">G</span>HTY FOX <br />Agence Web</h1>
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Bien plus qu’une agence web, votre allié pour une digitaliser votre entreprise !</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
                                 <Link href="/contact-us">

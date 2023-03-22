@@ -52,7 +52,7 @@ const BlogArea = () => {
                     </div>
                     
                     <div className="col-lg-6" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
-                        {sm_blogs.map((blog) => {
+                        {sm_blogs.reverse().slice(0,3).map((blog) => {
                             const { id, img, date, category, title, author, comment } = blog;
                             return (
                                 <div key={id} className="edu-blog blog-style-2">
