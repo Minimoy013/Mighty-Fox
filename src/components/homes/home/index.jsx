@@ -26,6 +26,7 @@ const index = () => {
                 <TeamArea/>
                 <BrandArea/>
                 <AdBanner/>
+                <BlogArea/>
                 <Footer/>
             </div>
         </div>

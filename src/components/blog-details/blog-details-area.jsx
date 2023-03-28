@@ -2,6 +2,8 @@ import React from 'react';
 import BlogSidebar from '../blog/blog-sidebar';
 import BlogCommentForm from '../forms/blog-comment-form';
 import CommentArea from './comment-area';
+import { blog_data } from '../../data';
+import Link from 'next/link';
 
 const BlogDetailsArea = ({blog}) => {
     return (
@@ -15,14 +17,13 @@ const BlogDetailsArea = ({blog}) => {
                                 <h3 className="title">{blog?.title}</h3>
                                 <ul className="blog-meta">
                                     <li><i className="icon-27"></i>{blog?.date}</li>
-                                    <li><i className="icon-28"></i>Com {blog?.comment}</li>
                                 </ul>
                                 <div className="thumbnail">
-                                    <img src="/assets/images/blog/blog-large-1.jpg" alt="Blog Image" />
+                                    <img src="/assets/images/blog/blog-large-1.webp" alt="Blog Image" />
                                 </div>
                             </div>
 
-                            <p>test perso psum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores. </p>
+                            <p>Catégorie </p>
 
                             <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
                             <ul>
@@ -82,7 +83,7 @@ const BlogDetailsArea = ({blog}) => {
 
                                     <div className="col-md-5">
                                         <div className="blog-share">
-                                            <h6 className="title">Share on:</h6>
+                                            <h6 className="title">Partager :</h6>
                                             <ul className="social-share icon-transparent">
                                                 <li>
                                                     <a href="#"><i className="icon-facebook"></i></a>
@@ -99,28 +100,6 @@ const BlogDetailsArea = ({blog}) => {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="blog-author">
-                            <div className="thumbnail">
-                                <img src="/assets/images/blog/author-01.jpg" alt="Author Images" />
-                            </div>
-                            <div className="author-content">
-                                <h5 className="title">Edward Norton</h5>
-                                <p>Enim ad minim veniam quis nostrud exercitation lamco laboris nisi ex commodo consequat aute irure.</p>
-                                <ul className="social-share icon-transparent">
-                                    <li>
-                                        <a href="#"><i className="icon-facebook"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i className="icon-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i className="icon-instagram"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
                         <div className="blog-pagination">
                             <div className="row g-5">
                                 <div className="col-lg-6">
@@ -141,16 +120,6 @@ const BlogDetailsArea = ({blog}) => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        {/*  Start Comment Area  */}
-                        <CommentArea />
-                        {/*  End Comment Area  */}
-                        <div className="comment-form-area">
-                            <h3 className="heading-title">Leave Your Comment Here</h3>
-                            {/* form start */}
-                            <BlogCommentForm />
-                            {/* form end */}
                         </div>
                     </div>
 

@@ -23,7 +23,7 @@ const BlogArea = () => {
                 <div className="container">
                     <div className="row row--30">
                         <div className="col-lg-8">
-                            {blog_items.map((blog, i) => {
+                            {blog_items.slice(0,3).map((blog, i) => {
                                 const { category, comment, date, id, title, images, img, video, slider, desc } = blog;
                                 return ( 
                                     <div key={id} className={`edu-blog blog-style-4 ${video ? 'post-video' : 'post-gallery'}`} data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">

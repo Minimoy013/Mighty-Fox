@@ -41,10 +41,9 @@ const BlogArea = () => {
                                             <a>{large_blog.title}</a>
                                         </Link>
                                     </h4>
-                                    <p>Lorem ipsum dolor sit amet consec tetur aditestetsetsetset iusmod tempor incid idunt labore.</p>
+                                    <p>{large_blog.sm_short}</p>
                                     <ul className="blog-meta">
                                         <li><i className="icon-25"></i>By <a href="#">{large_blog.author}</a></li>
-                                        <li><i className="icon-28"></i>Com {large_blog.comment}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -81,7 +80,6 @@ const BlogArea = () => {
                                             </h5>
                                             <ul className="blog-meta">
                                                 <li><i className="icon-25"></i>By <a href="#">{author}</a></li>
-                                                <li><i className="icon-28"></i>Com {comment}</li>
                                             </ul>
                                         </div>
                                     </div>
