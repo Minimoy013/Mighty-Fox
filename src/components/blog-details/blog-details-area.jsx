@@ -5,6 +5,7 @@ import CommentArea from './comment-area';
 import { blog_data } from '../../data';
 import Link from 'next/link';
 
+
 const BlogDetailsArea = ({blog}) => {
     return (
         <div className="blog-details-area section-gap-equal">
@@ -14,6 +15,7 @@ const BlogDetailsArea = ({blog}) => {
                         <div className="blog-details-content">
                             <div className="entry-content">
                                 <span className="category">Developer</span>
+                                
                                 <h3 className="title">{blog?.title}</h3>
                                 <ul className="blog-meta">
                                     <li><i className="icon-27"></i>{blog?.date}</li>
@@ -22,23 +24,16 @@ const BlogDetailsArea = ({blog}) => {
                                     <img src="/assets/images/blog/blog-large-1.webp" alt="Blog Image" />
                                 </div>
                             </div>
+                            <p className="description">{blog?.intro}</p>
 
-                            <p>Catégorie </p>
-
-                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
-                            <ul>
-                                <li>Aute irure dolor in reprehenderit</li>
-                                <li>Occaecat cupidatat non proident sunt in culpa</li>
-                                <li>Pariatur enim ipsam.</li>
-                            </ul>
 
                             <blockquote>
-                                <p>Lorem ipsum dolor amet con sectur elitadicing elit sed do usmod tempor uincididunt enim minim veniam nostrud.</p>
-                                <h5 className="author">Simon Baker</h5>
+                            <p className="quote">{blog?.quote}</p>
+
                             </blockquote>
 
-                            <h3 className="title">The Complete Camtasia</h3>
-                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam. </p>
+                            <h3 className="tipsTitle1">{blog?.tipsTitle1}</h3>
+                            <p className="tips1">{blog?.tips1}</p>
 
                             <div className="features-image">
                                 <div className="row g-md-5">
