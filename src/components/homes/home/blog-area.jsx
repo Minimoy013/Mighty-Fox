@@ -41,9 +41,9 @@ const BlogArea = () => {
                                             <a>{large_blog.title}</a>
                                         </Link>
                                     </h4>
-                                    <p>{large_blog.sm_short}</p>
+                                    <p>{large_blog.sm_desc}</p>
                                     <ul className="blog-meta">
-                                        <li><i className="icon-25"></i>By <a href="#">{large_blog.author}</a></li>
+                                        <li><i className="icon-25"></i>De <a href="#">{large_blog.author}</a></li>
                                     </ul>
                                 </div>
                             </div>

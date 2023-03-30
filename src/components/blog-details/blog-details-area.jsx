@@ -14,11 +14,11 @@ const BlogDetailsArea = ({blog}) => {
                     <div className="col-lg-8">
                         <div className="blog-details-content">
                             <div className="entry-content">
-                                <span className="category">Developer</span>
+                                <span className="category">{blog?.category}</span>
                                 
                                 <h2 className="title">{blog?.title}</h2>
                                 <ul className="blog-meta">
-                                    <li><i className="icon-27"></i>{blog?.date}</li>
+                                    <li><i className="icon-25"></i>De <a href="#">{blog?.author}</a>  &thinsp; <i className="icon-27"></i>{blog?.date}</li>
                                 </ul>
                                 <div className="thumbnail">
                                     <img src="/assets/images/blog/blog-large-1.webp" alt="Blog Image" />

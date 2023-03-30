@@ -91,12 +91,11 @@ const BlogArea = () => {
                                                 </h3>
                                                 <ul className="blog-meta">
                                                     <li><i className="icon-27"></i>{date}</li>
-                                                    <li><i className="icon-28"></i>Com {comment}</li>
                                                 </ul>
                                                 <p>{desc}</p>
                                                 <div className="read-more-btn">
                                                     <Link href={`/blog-details/${id}`}>
-                                                        <a className="edu-btn btn-border btn-medium">Learn More <i className="icon-4"></i></a>
+                                                        <a className="edu-btn btn-border btn-medium">Voir Plus <i className="icon-4"></i></a>
                                                     </Link>
                                                 </div>
                                             </div>

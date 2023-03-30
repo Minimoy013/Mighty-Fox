@@ -7,7 +7,7 @@ const blog_data = [
     imgLarge: "/assets/images/blog/blog-large-1.webp",
     category: "SEO",
     title: "Comment améliorer le référencement de son site internet ?",
-    date: "Mars 30 2023",
+    date: "30 Mars 2023",
     comment: 0,
     sm_desc: "Le référencement, qu'est-ce que c'est ? SEO... Vous ne le voyez toujours pas ? Plus simplement, il s'agit de référencement naturel, ou de ce qu'on appelle...",
     intro: "Le référencement, qu'est-ce que c'est ? SEO... Vous ne le voyez toujours pas ? Plus simplement, il s'agit de référencement naturel, ou de ce qu'on appelle les recherches orgraniques. Ces techniques sont utilisées pour améliorer le positionnement d'un site Web sur les moteurs de recherche tels que Google. Voici 5 astuces pour améliorer votre référencement et vous propulser vers le haut !",
