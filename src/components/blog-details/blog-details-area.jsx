@@ -16,7 +16,7 @@ const BlogDetailsArea = ({blog}) => {
                             <div className="entry-content">
                                 <span className="category">Developer</span>
                                 
-                                <h3 className="title">{blog?.title}</h3>
+                                <h2 className="title">{blog?.title}</h2>
                                 <ul className="blog-meta">
                                     <li><i className="icon-27"></i>{blog?.date}</li>
                                 </ul>
@@ -25,44 +25,45 @@ const BlogDetailsArea = ({blog}) => {
                                 </div>
                             </div>
                             <p className="description">{blog?.intro}</p>
-
-
+                            <h3 className="reasonTitle">{blog?.reasonTitle}</h3>
+                            <ol>
+                                <li className="reason">{blog?.reason1}</li>
+                                <li className="reason">{blog?.reason2}</li>
+                                <li className="reason">{blog?.reason3}</li>
+                            </ol>
                             <blockquote>
                             <p className="quote">{blog?.quote}</p>
 
                             </blockquote>
 
-                            <h3 className="tipsTitle1">{blog?.tipsTitle1}</h3>
+                            <h3 className="step">{blog?.step1}</h3>
                             <p className="tips1">{blog?.tips1}</p>
 
                             <div className="features-image">
                                 <div className="row g-md-5">
-                                    <div className="col-6">
+                                    <div className="col-12">
                                         <div className="thumb">
-                                            <img src="/assets/images/blog/features-1.jpg" alt="Features Images" />
+                                            <img src={blog?.feature1} alt="Feature Images" />
                                         </div>
                                     </div>
-                                    <div className="col-6">
+
+                                </div>
+                            </div>
+                            <h3 className="step">{blog?.step1}</h3>
+                            <p className="tips1">{blog?.tips1}</p>
+
+                            <div className="features-image">
+                                <div className="row g-md-5">
+                                    <div className="col-12">
                                         <div className="thumb">
-                                            <img src="/assets/images/blog/features-2.jpg" alt="Features Images" />
+                                            <img src={blog?.feature2} alt="Feature Images" />
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
 
-                            <p>Consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores. </p>
-
-                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
-
-                            <h3 className="title">Test</h3>
-                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam. </p>
-
-                            <ul>
-                                <li>Aute irure dolor in reprehenderit</li>
-                                <li>Occaecat cupidatat non proident sunt in culpa</li>
-                                <li>Pariatur enim ipsam.</li>
-                            </ul>
-
+                           
                             <div className="blog-share-area">
                                 <div className="row align-items-center">
                                     <div className="col-md-7">
@@ -81,13 +82,13 @@ const BlogDetailsArea = ({blog}) => {
                                             <h6 className="title">Partager :</h6>
                                             <ul className="social-share icon-transparent">
                                                 <li>
-                                                    <a href="#"><i className="icon-facebook"></i></a>
+                                                    <a href={blog?.shareFacebook} target="_blank"><i className="icon-facebook"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="#"><i className="icon-twitter"></i></a>
+                                                    <a href={blog?.shareTwitter} target="_blank"><i className="icon-twitter"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="#"><i className="icon-instagram"></i></a>
+                                                    <a href={blog?.shareInsta} target="_blank"><i className="ri-linkedin-box-fill"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
