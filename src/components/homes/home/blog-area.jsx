@@ -59,13 +59,13 @@ const BlogArea = () => {
                                         <div className="thumbnail">
                                             <Link href={`/blog-details/${id}`}>
                                                 <a>
-                                                <img src={img} alt="Blog Images" />
+                                                <img src={blog?.imgThumb} alt="Blog Images" />
                                                 </a>
                                             </Link>
-                                            <div className="blog-date">
+                                            {/* <div className="blog-date">
                                                 <span className="day">{date.split(' ')[1]}</span>
                                                 <span className="month">{date.split(' ')[0]}</span>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="content">
                                             <div className="category-wrap">
@@ -79,7 +79,7 @@ const BlogArea = () => {
                                                 </Link>
                                             </h5>
                                             <ul className="blog-meta">
-                                                <li><i className="icon-25"></i>By <a href="#">{author}</a></li>
+                                              <li><i className="icon-27"></i>{blog.date}</li>
                                             </ul>
                                         </div>
                                     </div>

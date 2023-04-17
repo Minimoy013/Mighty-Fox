@@ -106,7 +106,7 @@ const BlogArea = () => {
 
                             <ul className="edu-pagination justify-content-start pt-0">
                                 {/* pagination start */}
-                                <PaginationTwo />
+                                {/* <PaginationTwo /> */}
                                 {/* pagination end */}
                             </ul>
                         </div>

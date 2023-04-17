@@ -18,7 +18,7 @@ const counter_data = [
     },
     {
         color: 'extra02-color',
-        count: 147,
+        count: 151,
         text: '',
         title: 'Projets Réalisés'
     },

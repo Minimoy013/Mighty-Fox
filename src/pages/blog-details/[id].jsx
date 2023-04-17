@@ -8,7 +8,7 @@ import BlogDetailsMain from '../../components/blog-details';
 const DynamicBlogDetails = () => {
     const router = useRouter();
     const { id } = router.query;
-    const blog = blog_data.reverse().find(item => Number(item.id) === Number(id))
+    const blog = blog_data.find(item => Number(item.id) === Number(id))
     return (
         <Wrapper>
             <SEO pageTitle={'Blog Details'} />

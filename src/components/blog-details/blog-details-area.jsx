@@ -21,7 +21,7 @@ const BlogDetailsArea = ({blog}) => {
                                     <li><i className="icon-25"></i>De <a href="#">{blog?.author}</a>  &thinsp; <i className="icon-27"></i>{blog?.date}</li>
                                 </ul>
                                 <div className="thumbnail">
-                                    <img src="/assets/images/blog/blog-large-1.webp" alt="Blog Image" />
+                                    <img src={blog?.imgLarge} alt="Blog Image" />
                                 </div>
                             </div>
                             <p className="description">{blog?.intro}</p>
@@ -67,14 +67,14 @@ const BlogDetailsArea = ({blog}) => {
                             <div className="blog-share-area">
                                 <div className="row align-items-center">
                                     <div className="col-md-7">
-                                        <div className="blog-tags">
+                                        {/* <div className="blog-tags">
                                             <h6 className="title">Tags:</h6>
                                             <div className="tag-list">
                                                 <a href="#">Language</a>
                                                 <a href="#">eLearn</a>
                                                 <a href="#">Tips</a>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     <div className="col-md-5">
@@ -96,7 +96,7 @@ const BlogDetailsArea = ({blog}) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="blog-pagination">
+                        {/* <div className="blog-pagination">
                             <div className="row g-5">
                                 <div className="col-lg-6">
                                     <div className="blog-pagination-list prev-post">
@@ -116,7 +116,7 @@ const BlogDetailsArea = ({blog}) => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="col-lg-4">
