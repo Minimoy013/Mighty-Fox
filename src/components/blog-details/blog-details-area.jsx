@@ -25,45 +25,29 @@ const BlogDetailsArea = ({blog}) => {
                                 </div>
                             </div>
                             <p className="description">{blog?.intro}</p>
-                            <h3 className="reasonTitle">{blog?.reasonTitle}</h3>
+                            <h3 className="tipsTitle">{blog?.tipsTitle}</h3>
                             <ol>
-                                <li className="reason">{blog?.reason1}</li>
-                                <li className="reason">{blog?.reason2}</li>
-                                <li className="reason">{blog?.reason3}</li>
+                                <li className="tips">{blog?.tips1}</li>
+                                <li className="tips">{blog?.tips2}</li>
+                                <li className="tips">{blog?.tips3}</li>
                             </ol>
                             <blockquote>
                             <p className="quote">{blog?.quote}</p>
 
                             </blockquote>
 
-                            <h3 className="step">{blog?.step1}</h3>
-                            <p className="tips1">{blog?.tips1}</p>
+                            <h3 className="conclusion title">{blog?.conclusionTitle}</h3>
+                            <p className="tconclusion">{blog?.conclusion}</p>
 
                             <div className="features-image">
                                 <div className="row g-md-5">
                                     <div className="col-12">
                                         <div className="thumb">
-                                            <img src={blog?.feature1} alt="Feature Images" />
+                                            <img src={blog?.feature} alt="Feature Images" />
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-                            <h3 className="step">{blog?.step1}</h3>
-                            <p className="tips1">{blog?.tips1}</p>
-
-                            <div className="features-image">
-                                <div className="row g-md-5">
-                                    <div className="col-12">
-                                        <div className="thumb">
-                                            <img src={blog?.feature2} alt="Feature Images" />
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                           
                             <div className="blog-share-area">
                                 <div className="row align-items-center">
                                     <div className="col-md-7">
@@ -76,7 +60,6 @@ const BlogDetailsArea = ({blog}) => {
                                             </div>
                                         </div> */}
                                     </div>
-
                                     <div className="col-md-5">
                                         <div className="blog-share">
                                             <h6 className="title">Partager :</h6>
