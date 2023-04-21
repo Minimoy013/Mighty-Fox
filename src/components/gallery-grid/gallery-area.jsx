@@ -9,7 +9,7 @@ const gallery_items = [
     { img: '/assets/images/gallery/salon-big-data-suadeo.jpg', category: 'Print' },
     { img: '/assets/images/gallery/Recherche_UI-UX.jpg', category: 'UX / UI' },
     { img: '/assets/images/gallery/vaiarello-loic-okaluda-aurignac-boite-3d-2.jpg', category: 'Illustration' },
-    { img: '/assets/images/gallery/site-internet-ouverturehabitat.com.jpg', category: 'Site Internet' },
+    { img: '/assets/images/gallery/Recherche_UI-UX_login.jpg', category: 'UX / UI' },
     { img: '/assets/images/gallery/vaiarello-loic-autumn-mokup.jpg', category: 'Illustration' },
     { img: '/assets/images/gallery/Recherche_UI-UX_dashboard.jpg', category: 'UX / UI' }
 
