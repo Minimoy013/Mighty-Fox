@@ -3,28 +3,28 @@ import { useState } from 'react';
 import ImageLightBox from '../common/popup-modal/image-lightbox';
 
 const gallery_items = [
-    { img: '/assets/images/gallery/gallery-01.jpg', category: 'Education' },
-    { img: '/assets/images/gallery/gallery-03.jpg', category: 'Education' },
-    { img: '/assets/images/gallery/gallery-05.jpg', category: 'Education' },
-    { img: '/assets/images/gallery/gallery-02.jpg', category: 'Marketing' },
-    { img: '/assets/images/gallery/gallery-04.jpg', category: 'Marketing' },
-    { img: '/assets/images/gallery/gallery-07.jpg', category: 'Development' },
-    { img: '/assets/images/gallery/gallery-09.jpg', category: 'Development' },
-    { img: '/assets/images/gallery/gallery-03.jpg', category: 'Health' },
-    { img: '/assets/images/gallery/gallery-06.jpg', category: 'Health' },
-    { img: '/assets/images/gallery/gallery-08.jpg', category: 'Health' }
+    { img: '/assets/images/gallery/affiche-bourse-aux-monnaies.jpg', category: 'Print' },
+    { img: '/assets/images/gallery/logo-marignane-numismate.jpg', category: 'Logo' },
+    { img: '/assets/images/gallery/site-internet-suadeo.fr.jpg', category: 'Site Internet' },
+    { img: '/assets/images/gallery/salon-big-data-suadeo.jpg', category: 'Print' },
+    { img: '/assets/images/gallery/Recherche_UI-UX.jpg', category: 'UX / UI' },
+    { img: '/assets/images/gallery/vaiarello-loic-okaluda-aurignac-boite-3d-2.jpg', category: 'Illustration' },
+    { img: '/assets/images/gallery/site-internet-ouverturehabitat.com.jpg', category: 'Site Internet' },
+    { img: '/assets/images/gallery/vaiarello-loic-autumn-mokup.jpg', category: 'Illustration' },
+    { img: '/assets/images/gallery/Recherche_UI-UX_dashboard.jpg', category: 'UX / UI' }
+
 ]
 
 const uniqueItems = gallery_items.filter( (arr, index, self) =>
     index === self.findIndex( ( i ) => ( i.img === arr.img && i.State === arr.State ) )
 )
 
-const uniq_categories = ['All', ...new Set( gallery_items.map( item => item.category ) ) ]
+const uniq_categories = ['Tout voir', ...new Set( gallery_items.map( item => item.category ) ) ]
 
 const GalleryArea = () => {
     const [items, setItems] = useState(uniqueItems);
     // category
-    const [category, setCategory] = useState('All');
+    const [category, setCategory] = useState('Tout voir');
     // photoIndex
     const [photoIndex, setPhotoIndex] = useState(null);
     // image open state
@@ -34,7 +34,7 @@ const GalleryArea = () => {
     // handleCategory
     const handleCategory = (category) => {
         setCategory(category)
-        if (category === 'All') {
+        if (category === 'Tout voir') {
             setItems(uniqueItems)
         } else {
             setItems(gallery_items.filter(item => item.category === category))

@@ -72,8 +72,8 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                             <div className="header-right">
                                 <ul className="header-action">
                                     <li className="header-btn">
-                                        <Link href="/contact-us">
-                                            <a className="edu-btn btn-medium">Contactez-Nous
+                                        <Link href="/gallery-grid">
+                                            <a className="edu-btn btn-medium">Nos réalisations
                                             <i className="icon-4"></i></a>
                                         </Link>
                                     </li>
