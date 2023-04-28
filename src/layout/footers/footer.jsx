@@ -25,7 +25,7 @@ const footer_contents = {
             footer_links: [
                 { link: 'contact-us', title: 'Contactez-Nous' },
                 { link: 'blog-standard', title: 'Blog' },
-                { link: 'faq', title: "FAQ" },
+                { link: '#', title: "FAQ" },
                 { link: '/mentions-legales', title: "Mentions Légales" },
                 { link: '/cgv', title: "CGV & CGU" }
             ]
@@ -64,9 +64,9 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                                 <p className="description">{desc}</p>
                                 <div className="widget-information">
                                     <ul className="information-list">
-                                        <li><span>Add:</span>{add}</li>
-                                        <li><span>Call:</span><a href="tel:+33609346238">{call}</a></li>
-                                        <li><span>Email:</span><a href="mailto:contatct@ighty-fox.com" rel="noreferrer" target="_blank">{email}</a></li>
+                                        <li><span>Add :</span>{add}</li>
+                                        <li><span>Tel :</span><a href="tel:+33609346238">{call}</a></li>
+                                        <li><span>Email :</span><a href="mailto:contatct@ighty-fox.com" rel="noreferrer" target="_blank">{email}</a></li>
                                     </ul>
                                 </div>
                             </div>
