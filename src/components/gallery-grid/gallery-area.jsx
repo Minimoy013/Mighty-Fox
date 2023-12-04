@@ -3,6 +3,8 @@ import { useState } from 'react';
 import ImageLightBox from '../common/popup-modal/image-lightbox';
 
 const gallery_items = [
+    { img: '/assets/images/gallery/site-internet-ouverturehabitat.com.jpg', category: 'Site Internet' },
+    { img: '/assets/images/gallery/site-internet-katvoice.fr.jpg', category: 'Site Internet' },
     { img: '/assets/images/gallery/affiche-bourse-aux-monnaies.jpg', category: 'Print' },
     { img: '/assets/images/gallery/logo-marignane-numismate.jpg', category: 'Logo' },
     { img: '/assets/images/gallery/site-internet-suadeo.fr.jpg', category: 'Site Internet' },
